@@ -1,0 +1,19 @@
+# .gcloudignore
+# This file specifies files that are *not* uploaded to Google Cloud Platform
+# using gcloud. It follows the same syntax as .gitignore.
+
+# For more information, run:
+# $ gcloud topic gcloudignore
+
+# If you would like to upload your .git directory, .gitignore file or files
+# from your .gitignore file, remove the corresponding line below.
+.gcloudignore
+.git
+.gitignore
+
+# Include the rules from .gitignore
+#!include:.gitignore
+
+# Add any other files or directories to ignore during deployment that
+# are not in your .gitignore. For example, local test data:
+/tests/data/
